@@ -1,0 +1,99 @@
+// Fonts and Imports
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+// Website Default Settings
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+// Navbar Code
+.navbar {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        height: 4em;
+        box-sizing: border-box;
+        margin: auto;
+        max-width: 1440px;
+        padding: 0 20px 0 20px;
+
+        .navbar-left-container {
+            height: 100%;
+            width: auto;
+            display: flex;
+            align-items: center;
+
+            .navbar-logo {
+                height: 1.4em;
+                width: auto;
+            }
+        }
+
+        .navbar-center-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            a {
+                margin: auto;
+                font-family: 'Open Sans';
+                font-size: 0.9em;
+                color: rgb(68, 68, 68);
+                font-weight: 500;
+            }
+        }
+
+        .navbar-right-container {
+            display: flex;
+            align-items: center;
+            padding-left: 10em;
+            
+
+            a {
+                font-family: 'Open Sans';
+                font-size: 0.9em;
+                color: rgb(68, 68, 68);
+                font-weight: 500;
+                margin: auto;
+            }
+
+            .navbar-shopping-cart-logo {
+                height: 1.4em;
+                width: auto;
+                margin: auto;
+            }
+
+            .navbar-language-container {
+                display: flex;
+                align-items: center;
+                margin: auto;
+                background-color: #F2F2F2;
+                margin: 2px 0 2px 0;
+                padding: 0 10px 0 10px;
+                border-radius: 45px;
+                height: 2.4em;
+                font-family: 'Open Sans';
+                font-size: 0.9em;
+                font-weight: 500;
+
+                .navbar-language-flag {
+                    height: 1.2em;
+                    width: auto;
+                    padding-right: 8px;
+                }
+            }
+        }
+}
+
+.main {
+
+    .hero1 {
+        background-color: #F2F2F2;
+        
+        p {
+            margin: 0;
+        }
+    }
+}

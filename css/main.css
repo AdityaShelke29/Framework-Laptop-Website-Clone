@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  height: 4em;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: auto;
+  max-width: 1440px;
+  padding: 0 20px 0 20px;
+}
+
+.navbar .navbar-left-container {
+  height: 100%;
+  width: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .navbar-left-container .navbar-logo {
+  height: 1.4em;
+  width: auto;
+}
+
+.navbar .navbar-center-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.navbar .navbar-center-container a {
+  margin: auto;
+  font-family: 'Open Sans';
+  font-size: 0.9em;
+  color: #444444;
+  font-weight: 500;
+}
+
+.navbar .navbar-right-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 10em;
+}
+
+.navbar .navbar-right-container a {
+  font-family: 'Open Sans';
+  font-size: 0.9em;
+  color: #444444;
+  font-weight: 500;
+  margin: auto;
+}
+
+.navbar .navbar-right-container .navbar-shopping-cart-logo {
+  height: 1.4em;
+  width: auto;
+  margin: auto;
+}
+
+.navbar .navbar-right-container .navbar-language-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+  background-color: #F2F2F2;
+  margin: 2px 0 2px 0;
+  padding: 0 10px 0 10px;
+  border-radius: 45px;
+  height: 2.4em;
+  font-family: 'Open Sans';
+  font-size: 0.9em;
+  font-weight: 500;
+}
+
+.navbar .navbar-right-container .navbar-language-container .navbar-language-flag {
+  height: 1.2em;
+  width: auto;
+  padding-right: 8px;
+}
+
+.main .hero1 {
+  background-color: #F2F2F2;
+}
+
+.main .hero1 p {
+  margin: 0;
+}
+/*# sourceMappingURL=main.css.map */
