@@ -104,7 +104,6 @@ body {
 
     .hero1 {
         background-color: #F2F2F2;
-        margin: 0;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -126,6 +125,7 @@ body {
             font-weight: 700;
             font-size: 19px;
             padding-top: 1em;
+            text-align: center;
         }
 
         .hero1-third {
@@ -141,14 +141,19 @@ body {
 
         .hero1-fourth {
             margin: 0;
-            border-top: 1px solid red;
-            width: 800px;
-            padding-bottom: 50px;
+            border-top: 1px solid black;
+            width: 1350px;
+            margin-top: 5em;
             text-align: center;
         }
 
         .hero1-fifth {
             margin: 0;
+            font-family: 'Open Sans';
+            font-size: 14px;
+            padding: 5px 0 5px 0;
+            display: flex;
+            width: 1350px;
         }
     }
 }
