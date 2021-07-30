@@ -15,9 +15,13 @@ body {
         grid-template-columns: 1fr 1fr 1fr;
         height: 4em;
         box-sizing: border-box;
-        margin: auto;
         max-width: 1440px;
         padding: 0 20px 0 20px;
+        position: sticky;
+        top: 0;
+        background-color: white;
+        margin: auto;
+
 
         .navbar-left-container {
             height: 100%;
