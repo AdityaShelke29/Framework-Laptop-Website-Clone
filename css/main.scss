@@ -10,6 +10,13 @@ body {
 }
 
 // Navbar Code
+.navbar-inner {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: white;
+}
+
 .navbar {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -21,6 +28,7 @@ body {
         top: 0;
         background-color: white;
         margin: auto;
+
 
 
         .navbar-left-container {

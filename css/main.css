@@ -4,6 +4,14 @@ body {
   margin: 0;
 }
 
+.navbar-inner {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: white;
+}
+
 .navbar {
   display: -ms-grid;
   display: grid;
