@@ -331,4 +331,62 @@ body {
   font-family: "Open Sans";
   font-weight: 700;
 }
+
+.main .hero5 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+.main .hero5 .hero5-image-container {
+  width: 100%;
+}
+
+.main .hero5 .hero5-image-container img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.main .hero5 .hero5-right {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .hero5 .hero5-right .hero5-right-inner {
+  width: 47%;
+}
+
+.main .hero5 .hero5-right .hero5-right-inner h1 {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 35px;
+}
+
+.main .hero5 .hero5-right .hero5-right-inner p {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.8em;
+}
+
+.main .hero5 .hero5-right .hero5-right-inner button {
+  margin-top: 1em;
+  padding: 0.6em 1.0em 0.6em 1.0em;
+  font-size: 14px;
+  background-color: #F45A27;
+  border-radius: 25px;
+  border-width: 0px;
+  font-weight: 400;
+  font-family: 'Open Sans';
+}
 /*# sourceMappingURL=main.css.map */

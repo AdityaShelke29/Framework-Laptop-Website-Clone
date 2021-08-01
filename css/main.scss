@@ -275,4 +275,53 @@ body {
             }
         }
     }
+
+    .hero5 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        .hero5-image-container {
+            width: 100%;
+
+            img {
+                width: 100%;
+                object-fit: contain;
+            }
+        }
+
+        .hero5-right {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .hero5-right-inner {
+                width: 47%;
+
+                h1 {
+                    font-family: "Open Sans";
+                    font-weight: 700;
+                    font-size: 35px;
+                }
+
+                p {
+                    font-family: "Open Sans";
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 1.8em;
+                }
+
+                button {
+                    margin-top: 1em;
+                    padding: 0.6em 1.0em 0.6em 1.0em;
+                    font-size: 14px;
+                    background-color: #F45A27;
+                    border-radius: 25px;
+                    border-width: 0px;
+                    font-weight: 400;
+                    font-family: 'Open Sans';
+                }
+            }
+        }
+    }
 }
