@@ -151,17 +151,35 @@ body {
             margin: 0;
             font-family: 'Open Sans';
             font-size: 14px;
-            padding: 5px 0 5px 0;
+            padding: 5px 0 10px 0;
             display: flex;
             width: 1350px;
+        }
+    }
+
+    .hero2 {
+        background: linear-gradient(to bottom, #F2F2F2 20%, #FFFFFF 0%);
+
+        .hero2-image-holder {
+            max-width: 1350px;
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+
+
+
+            img {
+                max-width: 1350px;
+            }
         }
     }
 
     .hero3 {
         display: flex;
         flex-direction: row;
-        width: 1175px;
+        max-width: 1175px;
         margin: 50px auto 50px auto;
+        padding: 0 20px 0 20px;
         gap: 25px;
 
         img {
