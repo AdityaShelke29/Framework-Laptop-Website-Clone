@@ -11,6 +11,7 @@ body {
   top: 0;
   width: 100%;
   background-color: white;
+  border-bottom: 1px solid #E5E5E5;
 }
 
 .navbar {
@@ -388,5 +389,72 @@ body {
   border-width: 0px;
   font-weight: 400;
   font-family: 'Open Sans';
+}
+
+.blog {
+  padding: 50px 0 50px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.blog .blog-title-container-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 100%;
+  width: 1350px;
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.blog .blog-inner {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  width: 1350px;
+  grid-column-gap: 35px;
+}
+
+.blog .blog-inner .blog-inner-post {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  grid-auto-flow: row;
+}
+
+.blog .blog-inner .blog-inner-post img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.blog .blog-inner .blog-inner-post h2 {
+  padding: 15px 0 0 0;
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 15px;
+  margin: 0;
+}
+
+.blog .blog-inner .blog-inner-post p {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 15px;
 }
 /*# sourceMappingURL=main.css.map */

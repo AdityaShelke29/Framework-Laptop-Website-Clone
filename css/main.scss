@@ -16,6 +16,7 @@ body {
     top: 0;
     width: 100%;
     background-color: white;
+    border-bottom: 1px solid #E5E5E5;
 }
 
 .navbar {
@@ -29,8 +30,6 @@ body {
         top: 0;
         background-color: white;
         margin: auto;
-
-
 
         .navbar-left-container {
             height: 100%;
@@ -100,6 +99,7 @@ body {
         }
 }
 
+// Main Code
 .main {
 
     .hero1 {
@@ -321,6 +321,57 @@ body {
                     font-weight: 400;
                     font-family: 'Open Sans';
                 }
+            }
+        }
+    }
+}
+
+// Blog Code
+.blog {
+    padding: 50px 0 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .blog-title-container-inner {
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+        width: 1350px;
+        font-family: "Open Sans";
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    .blog-inner {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 1350px;
+        grid-column-gap: 35px;
+
+        .blog-inner-post {
+            width: 100%;
+            display: grid;
+            grid-auto-flow: row;
+
+            img {
+                width: 100%;
+                object-fit: contain;
+            }
+
+            h2 {
+                padding: 15px 0 0 0;
+                font-family: "Open Sans";
+                font-weight: 700;
+                font-size: 15px;
+                margin: 0;
+            }
+
+            p {
+                font-family: "Open Sans";
+                font-weight: 400;
+                font-size: 15px;
             }
         }
     }
